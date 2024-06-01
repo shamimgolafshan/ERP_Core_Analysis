@@ -46,4 +46,4 @@ number of samples. Several machine learning models were trained and evaluated:
 
 
 [1]Kappenman, Emily S., et al. "ERP CORE: An open resource for human event-related potential research." NeuroImage 225 (2021): 117465.
-[2]Debnath, Ranjan, et al. "The Maryland analysis of developmental EEG (MADE) pipeline." Psychophysiology 57.6 (2020): e13580.
+<br />[2]Debnath, Ranjan, et al. "The Maryland analysis of developmental EEG (MADE) pipeline." Psychophysiology 57.6 (2020): e13580.
