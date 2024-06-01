@@ -51,7 +51,7 @@ amplitude will be significantly greater when elicited by object stimuli as oppos
 stimuli.It means that the cognitive processes involved in object recognition may require more
 neural resources, resulting in a greater N170 amplitude for objects than for textures.
 To test this hypothesis, we will run methods below and compare them:
-- Linear Regression
+### Linear Regression
 To test the hypothesis that the N170 amplitude differs between object and texture stimuli we want to use linear regression while age, sex, and handedness are controlled. Formula:
 𝑨𝒗𝒈 𝑵𝟏𝟕𝟎 𝑨𝒎𝒑𝒍𝒊𝒕𝒖𝒅𝒆 = 𝒃𝟎 + 𝜷𝟏(𝒔𝒕𝒊𝒎𝒖𝒍𝒖𝒔 𝒕𝒚𝒑𝒆) + 𝜷𝟐(𝑨𝒈𝒆) + 𝜷𝟑(𝑺𝒆𝒙) + 𝜷𝟒(𝒉𝒂𝒏𝒅𝒆𝒅𝒏𝒆𝒔𝒔) + 𝝐
 Description of variables:
@@ -97,7 +97,7 @@ participant(0 for
 - 𝒊 : Index for participants
 - 𝒋: Index for observations per participant
 - 𝒖𝟎𝒊:   𝑖&'
-## ANCOVA
+### ANCOVA
 we use ANCOVA to investigate the effect of visual stimuli type (object vs. texture) on the N170 amplitude while controlling for covariates such as age, sex, and handedness Formula:
 𝑨𝒗𝒈 𝑵𝟏𝟕𝟎 𝑨𝒎𝒑𝒍𝒊𝒕𝒖𝒅𝒆𝒊𝒋 = 𝝁 + 𝝉𝒊 + 𝜷𝟏5𝑨𝒈𝒆𝒊𝒋8 + 𝜷𝟐5𝑺𝒆𝒙𝒊𝒋8 + 𝜷𝟑5𝒉𝒂𝒏𝒅𝒆𝒅𝒏𝒆𝒔𝒔𝒊𝒋8 + 𝝐𝒊𝒋
 Description of variables:
@@ -105,9 +105,9 @@ Description of variables:
 texture).
 - 𝝁: The overall average amplitude of the N170 component across all participants and conditions.
 - 𝝉𝒊: The effect of the 𝑖&' stimulus type on the N170 amplitude.
-- 𝑨𝒈𝒆𝒊𝒋: The age of the 𝑗&' participant exposed to the 𝑖&' type of stimulus, it is a
+- 𝑨𝒈𝒆 𝒊𝒋: The age of the 𝑗&' participant exposed to the 𝑖&' type of stimulus, it is a
 continuous covariate.
-- 𝑺𝒆𝒙𝒊𝒋: The sex of the 𝑗&' participant (0 for male and 1 for female), it is a binary covariate.
+- 𝑺𝒆𝒙 𝒊𝒋: The sex of the 𝑗&' participant (0 for male and 1 for female), it is a binary covariate.
 - 𝒉𝒂𝒏𝒅𝒆𝒅𝒏𝒆𝒔𝒔𝒊𝒋: The handedness of the 𝑗&' participant (0 for left-handed and 1 for right-handed), it is a binary covariate.
 - 𝜷𝟏 ... 𝜷𝟑:The coefficients for the covariates, representing the expected change in the N170 amplitude with a one-unit change in age, the change from male to female for sex, and the change from left-handed to right-handed for handedness, respectively.
  categorical independent variable representing the handedness of the
