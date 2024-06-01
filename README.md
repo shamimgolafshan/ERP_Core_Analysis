@@ -4,8 +4,12 @@ including 25 females and 15 males, aged between 18 and 30 years (mean age 21.5).
 participants, 38 were right-handed, and all were affiliated with the University of California, Davis
 community. We used N170 Components that you can find here: 
 <br />https://erpinfo.org/erp-core
+<br /> then we preprocessed them through MADE pipeline[2]:
+<br /> You can download all the preprocessed data from this link:
+<br /> https://drive.google.com/drive/folders/14kD7H_xCRVA6v9qPj08LKN9EQ10ciTW0?usp=sharing
 
 <br /> For initial Analysis use the .ipynb file to load data and build a feature matrix which is a .csv file 
+Also, you can download this file here at this Repo.
 ## Dataset Description: 
 Participants were instructed to discern whether the stimulus presented was an object (either a face
 or a car) or a “texture” (scrambled versions of the stimuli) and respond by pressing one of two
